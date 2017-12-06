@@ -1,0 +1,45 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    width: 50%;
+    margin: auto;
+  }
+
+body {
+  background: url(5.gif)
+  repeat 200% center,
+             linear-gradient(to bottom, yellow, #aaa 20%, orange);
+  background-size: cover;
+}
+
+
+
+
+#thumb {
+  font-size: 25px;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Handlee', cursive;
+  font-color: black;
+
+}
+
+p {
+  font-family: 'Handlee', cursive;
+  color:#DA70D6;"
+}
+
+#thumb:hover {
+  color:green;
+}
+ 

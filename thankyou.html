@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome</title>
+	<p> Thanks for visiting our page! </p>
+	<link rel="stylesheet" type="text/css" href="welcome.css">
+	<link rel="stylesheet" href="https://asiaszymczak.github.io/">
+</head>
+<body>
+
+</body>
+</html>
+
+
+<style>
+#container {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background: white;
+}
+#animate {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click Me</button>
+</p> 
+
+<div id ="container">
+<div id ="animate"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 7);
+  function frame() {
+    if (pos == 550) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>

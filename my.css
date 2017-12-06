@@ -1,0 +1,102 @@
+.profile{
+  display: block;
+  width: 200px;
+  float: left;
+  margin: 10px;
+  padding: 30px 30px 50px 30px;
+  background-color: rgb(255, 255, 255);
+  border: thin solid #ddd;
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px rgba(190, 94, 0, 0.8); /* dark orange */
+}
+
+.profile img {
+  background-color: rgb(125, 125, 125);
+}
+
+.demo{
+  font:pink;
+}
+.brain {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.brain1 {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+
+
+h1{
+    text-decoration: underline;
+}
+
+h1{
+font-color: #FF1493;
+}
+
+h2.my-font {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+  font: "italic";
+  font-family: 'Indie Flower', cursive;
+}
+
+h3.my-font {
+  font: "italic";
+font-family: 'Dancing Script', cursive;
+}
+
+
+p {
+  font-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animation{
+	color: black
+}
+.about{
+	color: white
+}
+
+
+.navbar {
+  border-radius: 0;
+  background-color: #222;
+}
+
+.text-light {
+  color: #aaa;
+}
+
+.has-links-centered {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
