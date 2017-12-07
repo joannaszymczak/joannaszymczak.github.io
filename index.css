@@ -7,7 +7,6 @@
     margin: auto;
   }
 
-
 .hand:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -38,18 +37,13 @@
 .demo{
   font:pink;
 }
-.brain {
-    display: block;
-    margin: auto;
-    width: 50%;
-}
+
 
 .brain1 {
     display: block;
     margin: auto;
     width: 50%;
 }
-
 
 .row > .column {
   padding: 0 8px;
@@ -165,6 +159,8 @@ img.demo {
 .demo:hover {
   opacity: 1;
 }
+
+
 
 img.hover-shadow {
   transition: 0.3s
@@ -284,11 +280,13 @@ td:hover {
 /* Text on the pic */
 .container {
     position: relative; 
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
+    max-width: 950px; /* Maximum width */
+    margin: 0 auto ; /* Center it */
 }
 
-.container .content {
+
+
+.content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
