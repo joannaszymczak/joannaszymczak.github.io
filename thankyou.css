@@ -1,3 +1,24 @@
 body {
-	background: pink;
+  background: url(2.gif)
+  repeat 200% center,
+             linear-gradient(to bottom, yellow, #aaa 20%, orange);
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Handlee', cursive;
+  font-color: black;
+
+}
+
+p {
+  font-family: 'Handlee', cursive;
+  color:#DA70D6;"
 }
