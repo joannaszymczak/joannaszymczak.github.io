@@ -210,12 +210,6 @@ header {
   background-size: cover;
 }
 
-footer {
-  background: url(comp.gif)
-  repeat 200% center,
-             linear-gradient(to bottom, yellow, #aaa 20%, orange);
-  background-size: cover;
-}
 
 p {
   font-color: #FFFFFF;
