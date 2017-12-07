@@ -29,19 +29,20 @@ body {
   left: 0;
   padding: 15px;
   z-index: 10;
+  width: 100%;
 }
 
-button {
+#random {
   background: #2e4582;
   color: #fff;  
   border: none;
   border-radius: 2px;
   position: relative;
   height: 36px;
-  margin: 0;
-  min-width: 64px;
+  margin: 0 auto;
+  width: 200px;
   padding: 0 16px;
-  display: inline-block;    
+  display: block;    
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -56,5 +57,12 @@ button {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
+h2 {
+  color: #eee;
+}
 
+footer {
+  position: fixed;
+  bottom: 0;
+}
 
