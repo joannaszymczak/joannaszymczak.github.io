@@ -221,7 +221,16 @@ p {
   font-color: #FFFFFF;
 }
 
+.image-brain {
+  width: 50%;
+  color: rgb(0,0,0,0.3);
+  border-radius: 50%;
+  transition: 1s transform ease;
+}
 
+.image-brain:hover {
+  transform: rotate(360deg);
+}
 
 img {
     display: block;

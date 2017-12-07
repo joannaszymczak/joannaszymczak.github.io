@@ -1,0 +1,11 @@
+html, body {
+			margin: 0;
+			padding: 0;
+			background-color: rgba(243, 245, 208, 1.00);
+			overflow: hidden;
+		}
+		#logo {
+		  position: absolute;
+		  bottom:1px;
+		  right:1px;
+		}
