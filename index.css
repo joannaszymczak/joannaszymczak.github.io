@@ -10,6 +10,15 @@
   box-shadow: 3px 3px 10px rgba(190, 94, 0, 0.8); /* dark orange */
 }
 
+.header {
+
+  background: url(5.gif)
+  repeat 200% center,
+             linear-gradient(to bottom, yellow, #aaa 20%, orange);
+  background-size: cover;
+}
+
+}
 .profile img {
   background-color: rgb(125, 125, 125);
 }
@@ -52,29 +61,53 @@ h3.my-font {
 font-family: 'Dancing Script', cursive;
 }
 
+header {
+  background: url(1.gif)
+  repeat 200% center,
+             linear-gradient(to bottom, yellow, #aaa 20%, orange);
+  background-size: cover;
+}
+
+footer {
+  background: url(buter.gif)
+  repeat 200% center,
+             linear-gradient(to bottom, yellow, #aaa 20%, orange);
+  background-size: cover;
+}
 
 p {
   font-color: #FFFFFF;
 }
 
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+table
+{
+border-collapse: collapse;
+border-spacing: 0px;
+margin: auto;
+margin-bottom: 50px;
+}
 
+table, th, td
+{
+padding: 10px;
+border: 1px solid #aaa;
+}
 
+th {
+  text-align: center;
+}
+th:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+td:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 
 
 .animation{
