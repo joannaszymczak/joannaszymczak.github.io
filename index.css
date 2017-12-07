@@ -1,14 +1,13 @@
-.profile{
-  display: block;
-  width: 200px;
-  float: left;
-  margin: 10px;
-  padding: 30px 30px 50px 30px;
-  background-color: rgb(255, 255, 255);
-  border: thin solid #ddd;
-  border-radius: 3px;
-  box-shadow: 3px 3px 10px rgba(190, 94, 0, 0.8); /* dark orange */
-}
+.profile {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    width: 50%;
+    margin: auto;
+  }
+
+
 .hand:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -30,17 +29,10 @@
 
 .header {
 
-  background: url(5.gif)
+  background: url(snow4.gif)
   repeat 200% center,
              linear-gradient(to bottom, yellow, #aaa 50%, orange);
   background-size: cover;
-}
-
-
-
-}
-.profile img {
-  background-color: rgb(125, 125, 125);
 }
 
 .demo{
@@ -178,6 +170,11 @@ img.hover-shadow {
   transition: 0.3s
 }
 
+.brain5:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -199,18 +196,26 @@ h2.my-font {
 
 h3.my-font {
   font: "italic";
-font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+}
+
+p.my-font{
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+  font: "italic";
+  font-family: 'Indie Flower', cursive;
+  font-color: #FF1493;
 }
 
 header {
-  background: url(1.gif)
+  background: url(stars3.gif)
   repeat 200% center,
              linear-gradient(to bottom, yellow, #aaa 20%, orange);
   background-size: cover;
 }
 
 footer {
-  background: url(buter.gif)
+  background: url(comp.gif)
   repeat 200% center,
              linear-gradient(to bottom, yellow, #aaa 20%, orange);
   background-size: cover;
@@ -219,6 +224,8 @@ footer {
 p {
   font-color: #FFFFFF;
 }
+
+
 
 img {
     display: block;
@@ -274,7 +281,7 @@ td:hover {
   justify-content: space-around;
 }
 
-
+/* Text on the pic */
 .container {
     position: relative; 
     max-width: 800px; /* Maximum width */
